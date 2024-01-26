@@ -1,0 +1,28 @@
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  color: #1089d4;
+}
+
+.nav-link {
+  color: #405263;
+  font-size: 17px;
+  padding: 10px 15px;
+}
+
+.nav-link.active {
+  --bs-navbar-active-color: #1089d4;
+}
+
+.get-started {
+  border: 1px solid #1089d4;
+  color: #1089d4 !important;
+  padding: 10px 15px !important;
+  border-radius: 8px 8px;
+  margin-right: 10px;
+  margin-left: 15px;
+}

@@ -1,0 +1,38 @@
+.projects-section {
+  background: #f7fafa;
+  padding: 90px 0 100px 0;
+}
+
+.gallery figure {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.gallery img {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+}
+
+.eye-wrapper {
+  cursor: pointer;
+  background-color: hsla(0, 0%, 0%, 0.411);
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  z-index: 20;
+  inset: 0;
+  margin-top: 0px;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  transition: all 200ms;
+  opacity: 0;
+}
+
+.eye-wrapper:hover {
+  opacity: 1;
+}

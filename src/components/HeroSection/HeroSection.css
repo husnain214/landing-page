@@ -1,0 +1,71 @@
+.hero-section {
+  background-color: #1e90ff;
+}
+
+.hero-section form {
+  max-width: 575px;
+}
+
+.form-wrapper {
+  max-width: 575px;
+  padding-left: 55px;
+  color: white;
+}
+
+.register-input {
+  width: 100%;
+  max-width: 520px;
+  height: 46px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 12px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.register-comment {
+  height: 90px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff !important;
+  font-size: 14px;
+  border-radius: 5px 5px 5px 5px;
+  resize: vertical;
+}
+
+:is(.register-input, .register-comment)::placeholder {
+  color: white;
+}
+
+.register-submit {
+  background: #ffff00;
+  border: 1px solid #ffff00;
+  color: #071e55;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  max-width: 520px;
+  padding: 16px 0;
+  text-transform: uppercase;
+  border-radius: 3px 3px;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-wrapper .terms {
+  margin: 10px 0 5px 0;
+  font-size: 16px;
+  color: #ebf8fc;
+  text-shadow: none;
+}
